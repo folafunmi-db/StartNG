@@ -1,0 +1,43 @@
+html {
+    margin: 0;
+    padding: 0;
+    /* to strip out any margin or padding */
+} 
+
+@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+body {
+    width: 75%; /*set the content to 70% of the page*/
+    margin: 0 auto; /*auto splits the space left into 2 and assigns it to left and right*/
+    font-family: 'Manjari', sans-serif;
+}
+
+img {
+    border-radius: 50%;
+    /*Cropping the picture into a circle*/
+    float: left;
+    padding: 10px;
+}
+
+section{
+    background-color: beige;
+}
+
+h2 {
+    font-family: 'Cairo', sans-serif;
+    background: silver;
+                   
+}
+
+.some {
+    color: slategray;
+}
+
+a  {
+    color: royalblue;
+    text-decoration: none;
+    /*strip out the underline*/
+}
+a:hover {
+    color: orangered;
+    /*set hover color*/
+}

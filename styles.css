@@ -6,7 +6,7 @@ html {
 
 @import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
 body {
-    width: 75%; /*set the content to 70% of the page*/
+    width: 80%; /*set the content to 70% of the page*/
     margin: 0 auto; /*auto splits the space left into 2 and assigns it to left and right*/
     font-family: 'Manjari', sans-serif;
 }
@@ -19,12 +19,12 @@ img {
 }
 
 section{
-    background-color: beige;
+    background-color: ghostwhite;
 }
 
 h2 {
     font-family: 'Cairo', sans-serif;
-    background: silver;
+    background: gainsboro;
                    
 }
 

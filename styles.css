@@ -18,14 +18,64 @@ img {
     padding: 10px;
 }
 
+.chip{
+    padding: 10px;
+}
+
 section{
     background-color: ghostwhite;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
 }
 
 h2 {
     font-family: 'Cairo', sans-serif;
     background: gainsboro;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px;
                    
+}
+
+.slider {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skill {
+    text-align: right;
+    padding: 2px;
+    color: white;
+}
+
+.python{ 
+    width: 60%;
+    background-color: green;
+}
+.wordpress{
+    width: 70%;
+    background-color: orange;
+}
+.proteus{
+    width: 75%;
+    background-color: royalblue;
+}
+.autocad{
+    width: 75%;
+    background-color: rosybrown;
+}
+.flowcode{
+    width: 55%;
+    background-color: orangered;
+}
+.html{
+    width: 50%;
+    background-color: purple;
+}
+.css{
+    width: 40%;
+    background-color: brown;
 }
 
 .some {
@@ -37,7 +87,61 @@ a  {
     text-decoration: none;
     /*strip out the underline*/
 }
+
 a:hover {
     color: orangered;
     /*set hover color*/
+}
+
+input[type="text"], input[type="email"], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border:1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 5px 1px 15px 1px;
+    resize: vertical;
+}
+
+input[placeholder] {
+    color: gray;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    background-color: ghostwhite;
+    
+}
+
+input[type=submit] {
+    color:white;
+    background-color: #ff4d4d;
+    padding: 5px 10px;
+    border: #ff4d4d;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+input[type=submit]:hover {
+    background-color: #da4242;
+}
+
+.brief {
+    background-color: #ff4d4d;
+    text-align: right;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+
+}
+
+.brief:hover{
+    background-color: #da4242;
 }

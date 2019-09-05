@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>Mustapha Folafunmi CV</title>
         <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="main.js"></script>
     </head>
 
     <body>
@@ -26,6 +27,12 @@
                 rel="author">
                     <b>folafunmimustapha@gmail.com</b>
                 </a>
+                <div class="chip">
+                    <a href="https://github.com/folafunmi-db"><img src="https://res.cloudinary.com/folafunmi/image/upload/v1567582695/gith_vgdqv7.jpg" alt="github link" width="46" height="46"></a>
+                    <a href="https://linkedin.com/in/folafunmi-mustapha-8294b3107"><img src="https://res.cloudinary.com/folafunmi/image/upload/v1567582694/LinkedIn-Logo-R_i6q6jr.png" alt="linkedin link" width="46" height="46"></a>
+                    <a href="https://dev.to/folafunmidb"><img src="https://res.cloudinary.com/folafunmi/image/upload/v1567582694/Dev-512_v3qxcc.png" alt="dev.to link" width="46" height="46"></a>
+
+                </div>
             </p>
         </header><br>
       
@@ -44,13 +51,33 @@
             <font color='ff4d4d'><h2>Skills</h2></font>
             <ul>
                 <li>Python</li>
+                <div class="slider">
+                    <div class="python skill">60%</div>
+                </div>
                 <li>Wordpress</li>
+                <div class="slider">
+                    <div class="wordpress skill">70%</div>
+                </div>
                 <li>Proteus</li>
+                <div class="slider">
+                    <div class="proteus skill">75%</div>
+                </div>
                 <li>AutoCAD 2D</li>
+                <div class="slider">
+                    <div class="autocad skill">75%</div>
+                </div>
                 <li>Flowcode</li>
+                <div class="slider">
+                    <div class="flowcode skill">55%</div>
+                </div>
                 <li>HTML</li>
+                <div class="slider">
+                    <div class="html skill">50%</div>
+                </div>
                 <li>CSS</li>
-            </ul>
+                <div class="slider">
+                    <div class="css skill">40%</div>
+                </div>
         </section><br>
 
         <section>
@@ -99,8 +126,35 @@
             <p>Dean's Honour List</p><br>
         </section>
 
+        <div class="container">
+            <h3>Contact me</h3>
+            <!--Insert js code to display alert-->
+            <form action="">
+                <label for="fname">First Name</label><br>
+                <input type="text" id="fname" name="firstName" placeholder="First Name Here" minlength="2" required><br>
+            
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="lastName" placeholder="Last Name(Surname) here" minlength="2" required><br>
+                
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Vaild Email Address" required><br>
+            
+                <label for="country">Country</label><br>
+                <select id="country" name="country">
+                    <option value="nigeria">Nigeria</option>
+                    <option value="others">Other Country</option>
+                </select><br>
+
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" placeholder="Anything for me?" style="height:200px" required></textarea><br>
+            
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
         <center>
         <footer>&copy; 2019 <b>MUSTAPHA FOLAFUNMI </b></footer>
+        <a href="#"><button class="brief">Back to Top</button></a>
         </center>
     </body>
 </html>

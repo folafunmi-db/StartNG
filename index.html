@@ -129,11 +129,11 @@
             <h3>Contact me</h3>
             <!--Insert js code to display alert-->
             <form action="">
-                <label for="fname">First Name</label><br>
-                <input type="text" id="fname" name="firstName" placeholder="First Name Here" minlength="2" required><br>
+                <label for="fname">Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Name Here" minlength="4" required><br>
             
-                <label for="lname">Last Name</label><br>
-                <input type="text" id="lname" name="lastName" placeholder="Last Name(Surname) here" minlength="2" required><br>
+                <label for="lname">Title</label><br>
+                <input type="text" id="title" name="title" placeholder="Title here" minlength="2" required><br>
                 
                 <label for="email">Email</label><br>
                 <input type="email" id="email" name="email" placeholder="Vaild Email Address" required><br>
@@ -145,7 +145,7 @@
                 </select><br>
 
                 <label for="message">Message</label><br>
-                <textarea id="message" name="message" placeholder="Anything for me?" style="height:200px" required></textarea><br>
+                <textarea id="message" name="message" placeholder="Anything for me?" style="height:200px" minlength="20" required></textarea><br>
             
                 <input type="submit" value="Submit">
             </form>
